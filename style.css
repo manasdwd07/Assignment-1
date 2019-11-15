@@ -1,0 +1,57 @@
+
+.logo{
+    float:left;
+    width:90%;
+    margin-left: 40%;
+    margin-top:5px;
+}
+.para1{
+    margin-left:130px;
+    font-family: cursive;
+    color: grey;
+    font-size: 20px;
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+.call-us{
+    float: right;
+    margin-right:100px;
+    margin-top:20px;
+}
+.call-us1{
+
+    
+    word-spacing: 2px;
+    font-size: 20px;
+    color: white;
+}
+.list li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+.list li a{
+    text-decoration: none;
+    color:grey;
+}
+.list{
+    margin-top: 15px;
+}
+.head1{
+    background-color: blue;
+    height: 17%;
+}
+.secpart{
+    height: 17%;
+    background-color: red;
+}
+
+
+.imgabc{
+    padding:20px;
+
+}
+.abc4{
+    display: inline-block;
+}
