@@ -1,8 +1,11 @@
 
+body{
+    overflow:none;
+}
 .logo{
-    float:left;
+    float:right;
     width:90%;
-    margin-left: 40%;
+    
     margin-top:5px;
 }
 .para1{
@@ -37,6 +40,28 @@
 }
 .list{
     margin-top: 15px;
+}
+.h1div6{
+    font-size:80px;
+}
+.p1div6{
+    width:100%;
+    font-size: 40px;
+}
+.p2div6{
+    word-spacing:150px;
+    font-weight: bold;
+}
+.div7{
+    opacity:5.0;
+    display:inline-block;
+    margin-left:33%;
+    border-radius: 20%;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.div7 button{
+     font-size:25px;
 }
 .head1{
     background-color: blue;
@@ -74,4 +99,226 @@
     margin-top:15px;
     width: 20%;
     height: 20%;
+}
+.pdiv11{
+    font-family:cursive;
+    font-size:xx-large;
+    padding-left:33%;
+    color: lightgray;
+}
+.imgdiv11{
+    height: auto;
+    width: auto;
+    padding-left: 33%;
+}
+.pdiv12{
+    color:lightgray;
+    font-size: larger;
+}
+.btn1div12{
+    float:left;
+    margin-left:140px;
+}
+.btn2div12{
+    float: right;
+    margin-right:140px;
+}
+.pt1div13{
+    text-align:center;
+    float: right;
+    padding-left: 14%;
+}
+.pt2div13{
+     padding-left:110px;
+}
+.pt3div13{
+
+}
+#head1{
+    color:rgb(203, 214, 209);
+}
+#head2{
+    color:rgb(203, 214, 209);
+    text-align: center;
+    padding-right: 60px;
+}
+#head3{
+    color:rgb(203, 214, 209);
+}
+.ul{
+    list-style-image: url('Images/icon9.png');
+}
+.lastl2{
+    color:rgb(115, 121, 118);
+    text-align: center;
+    padding-right: 180px;
+}
+.div121{
+    display:inline-block;
+    font-size: 2vmin;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px)
+{
+    body{
+        overflow-x:hidden;
+    }
+    .logo{
+        float: left;
+    }
+    .para1{
+        text-align: center;
+        margin-top:-20px;
+        font-size:5vmin;
+    }
+    .list{
+        margin-top: 10px;
+        margin-left: 100px;
+        display:block;
+    }
+    .call-us1{
+        margin:20px;
+    }
+    .bgflow{
+        background-size:1500px;
+        background-position-x: 25%;
+    }
+    .div3{
+        margin:-150px;
+        width:auto;
+        margin-top:-200px;
+        padding-left:-50px;
+        margin-bottom:20px;
+    }
+    .div4{
+        font-size: 6vmin;
+        background-color:whitesmoke;
+        display: ruby-text-container;
+    }
+    .div5{
+        margin-right:100px;
+        margin-top:-50px;
+    }
+    .h1div6{
+        font-size: 8vmin;
+    }
+    .p1div6{
+        font-size:5vmin;
+    }
+    .p2div6{
+        font-size:3vmin;
+        word-spacing: 25px;
+    }
+    .p3div6{
+        font-size:1.5vmin;
+    }
+    .p3div6 button img{
+        height:10px;
+        width:1px;
+    }
+    .div7{
+        
+        position: relative;
+        display: inline-block;
+        margin-right:80px;
+        
+    }
+    .div8{
+        font-size:4vmin;
+    }
+    .div9{
+        margin-top:-50px;
+        margin-left:-50px;
+        font-size:3vmin;
+    }
+    .div10 {
+        
+        margin-top: 20px;
+        margin-left:60px;
+        font-size: 3vmin;
+        margin-bottom:50px;
+    }
+    .imgdiv11{
+        margin-right:100px;
+        height:20px;
+        width:100%;
+        position: relative;
+    }
+    .pdiv11{
+        float:left;
+        margin-top:-20px;
+        font-size:4vmin;
+    }
+    .pdiv12{
+        font-size:3vmin;
+        margin-top:-60px;
+    }
+    #btn1div12{
+        float:left;
+        margin-left:10px;
+        font-size:3vmin;
+    }
+    #btn2div12{
+        float:right;
+        margin-right:10px;
+        font-size:3vmin;
+        
+    }
+    .pt1div13{
+        margin-top:-10px;
+        float:left;
+        font-size:2vmin;
+    }
+    .pt2div13{
+        margin-top:-10px;
+        font-size:2vmin;
+    }
+    .pt3div13{
+        font-size: 2vmin;
+        text-align: center;
+        margin-top:-10px;
+        
+    }
+    #head1{
+        margin-left:5px;
+        font-size:4vmin;
+    }
+    #head2{
+        margin-left:30px;
+        font-size: 4vmin;
+    }
+    #head3 {
+        text-align: center;
+        margin-bottom:20px;
+        font-size: 4vmin;
+        padding-bottom:10px;
+        margin-left:20px;
+    }
+    .ul li{
+        margin-top:-20px;
+        display:block;
+    }
+    .lastl{
+        text-align: left;
+        margin-left:-50px;
+    }
+    .lastl1{
+         margin-left:-30px;
+         font-size:4vmin;
+    }
+    .lastl2{
+        text-align:right;
+        margin-left:-30px;
+    }
 }
